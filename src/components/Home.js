@@ -55,10 +55,10 @@ function Home() {
         animate={{ y: 0, opacity: 1 }}
         transition={{ delay: 0.5, type: 'spring', stiffness: 120 }}
       >
-        <a href="https://github.com/yourgithub" className="text-4xl text-gray-700 hover:text-gray-900">
+        <a href="https://github.com/DevYasa" className="text-4xl text-gray-700 hover:text-gray-900">
           <FaGithub />
         </a>
-        <a href="https://linkedin.com/in/yourlinkedin" className="text-4xl text-blue-700 hover:text-blue-900">
+        <a href="www.linkedin.com/in/mhdyasir2001" className="text-4xl text-blue-700 hover:text-blue-900">
           <FaLinkedin />
         </a>
       </motion.div>

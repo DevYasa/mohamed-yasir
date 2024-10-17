@@ -17,13 +17,14 @@ function Home() {
         transition={{ delay: 0.2, type: 'spring', stiffness: 120 }}
       >
         <div className="w-52 h-52 rounded-full bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 p-1">
-          <img src="/images/me.jpg" alt="Mohamed Yasir" className="w-full h-full object-cover rounded-full" />
+          <img src={`${process.env.PUBLIC_URL}/images/me.jpg`} alt="Mohamed Yasir"
+               className="w-full h-full object-cover rounded-full"/>
         </div>
       </motion.div>
       <motion.h1
-        className="text-5xl font-bold mb-4"
-        initial={{ y: -50 }}
-        animate={{ y: 0 }}
+          className="text-5xl font-bold mb-4"
+          initial={{y: -50}}
+          animate={{ y: 0 }}
         transition={{ delay: 0.3, type: 'spring', stiffness: 120 }}
       >
         Mohamed Yasir

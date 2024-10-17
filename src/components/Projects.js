@@ -7,7 +7,7 @@ const projectData = [
     description: "Full-stack web application using React and Django to provide AI-driven code explanations.",
     techStack: "React, Redux, Django REST API, CodeBERT, Tailwind CSS, Git, GitHub Actions",
     url: "https://github.com/DevYasa/codeLumina",
-    image: "/images/code-lumina.jpg",
+    image: process.env.PUBLIC_URL + "/images/code-lumina.jpg",
     videoId: "f_8lprMBpew"
   },
   {
@@ -15,7 +15,7 @@ const projectData = [
     description: "Web application using React and Django to analyze resumes and match them with job positions.",
     techStack: "React, Django, Hugging Face Transformers, Git",
     url: "https://github.com/DevYasa/TalentSphere-Resume-Analyzer",
-    image: "/images/talent-sphere.jpg",
+    image: process.env.PUBLIC_URL + "/images/talent-sphere.jpg",
     videoId: "825WpmARETM"
   }
 ];

@@ -58,7 +58,7 @@ function Home() {
         <a href="https://github.com/DevYasa" className="text-4xl text-gray-700 hover:text-gray-900">
           <FaGithub />
         </a>
-        <a href="www.linkedin.com/in/mhdyasir2001" className="text-4xl text-blue-700 hover:text-blue-900">
+        <a href="https://linkedin.com/in/mhdyasir2001/" className="text-4xl text-blue-700 hover:text-blue-900">
           <FaLinkedin />
         </a>
       </motion.div>

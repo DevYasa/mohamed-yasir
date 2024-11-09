@@ -44,6 +44,8 @@ function Home() {
         transition={{ delay: 0.4, type: 'spring', stiffness: 120 }}
       >
         Passionate software developer focused on building AI-powered web applications.
+        Experienced in integrating Hugging Face models and AI APIs to create intelligent solutions.
+        Specialized in developing user-friendly applications with modern tech stack.
       </motion.p>
       <motion.div
         className="flex justify-center space-x-4"

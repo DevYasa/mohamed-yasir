@@ -66,7 +66,7 @@ function Projects() {
   return (
     <div className="projects py-20">
       <h2 className="text-4xl font-bold text-center mb-10">Projects</h2>
-      <div className="grid md:grid-cols-2 gap-8">
+      <div className="grid md:grid-cols-3 gap-8">
         {projectData.map((project, index) => (
           <motion.div
             key={index}

@@ -35,7 +35,7 @@ function Home() {
         animate={{ y: 0 }}
         transition={{ delay: 0.3, type: 'spring', stiffness: 120 }}
       >
-        AI Software Engineer Intern
+        AI Application Developer
       </motion.h2>
       <motion.p
         className="text-xl max-w-3xl mx-auto mb-8"
@@ -43,12 +43,10 @@ function Home() {
         animate={{ y: 0 }}
         transition={{ delay: 0.4, type: 'spring', stiffness: 120 }}
       >
-        Software engineer specializing in building intelligent applications by integrating
-        state-of-the-art AI models and APIs. Experienced in developing web-based AI solutions
-        using Hugging Face transformers and other pre-trained models. Proficient in creating
-        user-friendly applications that leverage natural language processing, computer vision,
-        and other AI capabilities. Skilled in Python, React, and modern web technologies with a
-        focus on seamless AI integration and optimal user experience.
+        Passionate software developer focused on building AI-powered web applications.
+        Experienced in integrating Hugging Face models and AI APIs to create
+        intelligent solutions. Specialized in developing user-friendly
+        applications with modern tech stack.
       </motion.p>
       <motion.div
         className="flex justify-center space-x-4"

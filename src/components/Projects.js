@@ -1,4 +1,3 @@
-// Projects.js
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 
@@ -18,6 +17,38 @@ const projectData = [
     url: "https://github.com/DevYasa/TalentSphere-Resume-Analyzer",
     image: `${process.env.PUBLIC_URL}/images/talent-sphere.JPG`,
     videoId: "825WpmARETM"
+  },
+  {
+    title: "TaskMaster - Task Management App",
+    description: "A task management app built with React and Firebase for real-time data synchronization.",
+    techStack: "React, Firebase, Tailwind CSS, JavaScript",
+    url: "https://github.com/DevYasa/TaskMaster",
+    image: `${process.env.PUBLIC_URL}/images/task-master.JPG`,
+    videoId: "A2-Bndv0ihQ"
+  },
+  {
+    title: "ChatBotX - AI-powered Chatbot",
+    description: "A chatbot application using React and TensorFlow.js for natural language processing.",
+    techStack: "React, TensorFlow.js, Node.js, Express",
+    url: "https://github.com/DevYasa/ChatBotX",
+    image: `${process.env.PUBLIC_URL}/images/chat-bot.JPG`,
+    videoId: "C3y9APOQj1I"
+  },
+  {
+    title: "DevConnect - Developer Community",
+    description: "A platform for developers to connect and share ideas, built with React and Node.js.",
+    techStack: "React, Node.js, Express, MongoDB, Socket.io",
+    url: "https://github.com/DevYasa/DevConnect",
+    image: `${process.env.PUBLIC_URL}/images/dev-connect.JPG`,
+    videoId: "m5jwfbhrgU8"
+  },
+  {
+    title: "BudgetTrack - Personal Finance Tracker",
+    description: "An app to help users track their personal finances and set budgets.",
+    techStack: "React, Firebase, Tailwind CSS",
+    url: "https://github.com/DevYasa/BudgetTrack",
+    image: `${process.env.PUBLIC_URL}/images/budget-track.JPG`,
+    videoId: "M6x3xz4ATYI"
   }
 ];
 

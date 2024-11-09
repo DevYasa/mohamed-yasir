@@ -23,7 +23,7 @@ const projectData = [
     description: "A web application using React and Node with Express to Generate Images from the prompt.",
     techStack: "React, Node.js, Express, MongoDB",
     url: "https://github.com/DevYasa/promptmage",
-    image: `${process.env.PUBLIC_URL}/images/ia.JPG`,
+    image: `${process.env.PUBLIC_URL}/images/i1.JPG`,
     videoId: "f6tgn-dIO5U "
   },
   {

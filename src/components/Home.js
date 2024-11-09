@@ -35,7 +35,7 @@ function Home() {
         animate={{ y: 0 }}
         transition={{ delay: 0.3, type: 'spring', stiffness: 120 }}
       >
-        AI/ML Engineer Intern
+        AI Software Engineer Intern
       </motion.h2>
       <motion.p
         className="text-xl max-w-3xl mx-auto mb-8"
@@ -43,11 +43,12 @@ function Home() {
         animate={{ y: 0 }}
         transition={{ delay: 0.4, type: 'spring', stiffness: 120 }}
       >
-        Software engineering undergraduate with a strong foundation in Python programming
-        and a growing expertise in AI model integration. Experienced with Python libraries
-        for AI/ML and data analysis. Seeking an AI Software Engineer internship to apply
-        my skills in developing intelligent systems and to further my knowledge in cutting-edge
-        AI technologies.
+        Software engineer specializing in building intelligent applications by integrating
+        state-of-the-art AI models and APIs. Experienced in developing web-based AI solutions
+        using Hugging Face transformers and other pre-trained models. Proficient in creating
+        user-friendly applications that leverage natural language processing, computer vision,
+        and other AI capabilities. Skilled in Python, React, and modern web technologies with a
+        focus on seamless AI integration and optimal user experience.
       </motion.p>
       <motion.div
         className="flex justify-center space-x-4"

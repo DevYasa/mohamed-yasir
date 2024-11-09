@@ -1,5 +1,5 @@
+// Header.js
 import React from 'react';
-import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { FaSun, FaMoon } from 'react-icons/fa';
 
@@ -14,7 +14,7 @@ function Header({ darkMode, setDarkMode }) {
             transition={{ duration: 0.5 }}
             className="flex items-center"
           >
-            <Link to="/" className="text-xl font-bold">Mohamed Yasir</Link>
+            <a href="#home" className="text-xl font-bold">Mohamed Yasir</a>
           </motion.div>
           <motion.ul
             className="flex space-x-4"
@@ -22,10 +22,10 @@ function Header({ darkMode, setDarkMode }) {
             animate={{ x: 0, opacity: 1 }}
             transition={{ duration: 0.5 }}
           >
-            <li><Link to="/" className="hover:text-blue-500 transition-colors">Home</Link></li>
-            <li><Link to="/projects" className="hover:text-blue-500 transition-colors">Projects</Link></li>
-            <li><Link to="/skills" className="hover:text-blue-500 transition-colors">Skills</Link></li>
-            <li><Link to="/contact" className="hover:text-blue-500 transition-colors">Contact</Link></li>
+            <li><a href="#home" className="hover:text-blue-500 transition-colors">Home</a></li>
+            <li><a href="#projects" className="hover:text-blue-500 transition-colors">Projects</a></li>
+            <li><a href="#skills" className="hover:text-blue-500 transition-colors">Skills</a></li>
+            <li><a href="#contact" className="hover:text-blue-500 transition-colors">Contact</a></li>
             <li>
               <button onClick={() => setDarkMode(!darkMode)} className="focus:outline-none">
                 {darkMode ? <FaSun className="text-yellow-400" /> : <FaMoon className="text-gray-700" />}

@@ -1,3 +1,4 @@
+// Projects.js
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 
@@ -51,39 +52,36 @@ function Projects() {
               <div className="flex space-x-4">
                 <a
                   href={project.url}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-block bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600 transition-colors"
+                  className="px-4 py-2 text-white bg-blue-600 rounded hover:bg-blue-700"
                 >
-                  View Project
+                  View on GitHub
                 </a>
                 <button
                   onClick={() => openVideoModal(project.videoId)}
-                  className="inline-block bg-green-500 text-white px-4 py-2 rounded hover:bg-green-600 transition-colors"
+                  className="px-4 py-2 text-white bg-gray-600 rounded hover:bg-gray-700"
                 >
-                  Watch Demo
+                  Demo
                 </button>
               </div>
             </div>
           </motion.div>
         ))}
       </div>
-
       {selectedVideo && (
-        <div className="fixed inset-0 bg-black bg-opacity-75 flex items-center justify-center z-50">
-          <div className="bg-white p-4 rounded-lg">
+        <div
+          className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-70"
+          onClick={closeVideoModal}
+        >
+          <div className="bg-white dark:bg-gray-900 rounded-lg overflow-hidden">
             <iframe
-              width="560"
-              height="315"
               src={`https://www.youtube.com/embed/${selectedVideo}`}
-              title="YouTube video player"
-              frameBorder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              title="Project Demo"
+              className="w-full h-80"
               allowFullScreen
             ></iframe>
             <button
               onClick={closeVideoModal}
-              className="mt-4 bg-red-500 text-white px-4 py-2 rounded hover:bg-red-600 transition-colors"
+              className="block w-full py-3 text-center text-gray-500 hover:text-gray-700 dark:text-gray-300"
             >
               Close
             </button>

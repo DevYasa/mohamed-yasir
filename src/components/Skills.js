@@ -1,31 +1,33 @@
+// Skills.js
 import React from 'react';
 import { motion } from 'framer-motion';
-import { FaPython, FaReact, FaDatabase } from 'react-icons/fa';
 
 const skillsData = [
-  { name: 'Python (Django)', icon: FaPython },
-  { name: 'JavaScript (React)', icon: FaReact },
-  { name: 'AI/ML (Hugging Face models, scikit-learn, NLTK, Pandas)', icon: FaPython },
-  { name: 'Databases (SQLite, MongoDB)', icon: FaDatabase },
-  { name: 'Version Control (Git, GitHub)', icon: FaPython },
-  { name: 'Frontend (React, HTML, CSS, Tailwind CSS)', icon: FaReact },
+  { name: "JavaScript", level: "Advanced" },
+  { name: "React", level: "Advanced" },
+  { name: "Python", level: "Advanced" },
+  { name: "Machine Learning", level: "Intermediate" },
+  { name: "Django", level: "Intermediate" },
+  { name: "CSS / Tailwind CSS", level: "Advanced" },
+  { name: "Node.js", level: "Intermediate" },
+  { name: "SQL & NoSQL Databases", level: "Intermediate" }
 ];
 
 function Skills() {
   return (
     <div className="skills py-20">
-        <h2 className="text-4xl font-bold text-center mb-10">Skills</h2>
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+      <h2 className="text-4xl font-bold text-center mb-10">Skills</h2>
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
         {skillsData.map((skill, index) => (
           <motion.div
             key={index}
-            className="bg-gray-100 dark:bg-gray-800 rounded-lg shadow-lg p-6 flex items-center"
+            className="p-6 bg-white dark:bg-gray-800 rounded-lg shadow-lg"
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.5, delay: index * 0.1 }}
+            transition={{ duration: 0.3, delay: index * 0.1 }}
           >
-            <skill.icon className="text-4xl text-blue-500 mr-4" />
-            <span className="text-lg text-gray-800 dark:text-white">{skill.name}</span>
+            <h3 className="text-2xl font-semibold text-gray-800 dark:text-white">{skill.name}</h3>
+            <p className="text-gray-500 dark:text-gray-300">{skill.level}</p>
           </motion.div>
         ))}
       </div>

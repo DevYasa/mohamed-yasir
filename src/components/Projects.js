@@ -19,12 +19,12 @@ const projectData = [
     videoId: "825WpmARETM"
   },
   {
-    title: "TaskMaster - Task Management App",
-    description: "A task management app built with React and Firebase for real-time data synchronization.",
-    techStack: "React, Firebase, Tailwind CSS, JavaScript",
-    url: "https://github.com/DevYasa/TaskMaster",
-    image: `${process.env.PUBLIC_URL}/images/task-master.JPG`,
-    videoId: "A2-Bndv0ihQ"
+    title: "PromptMage - AI Text-to-image Generator",
+    description: "A web application using React and Node with Express to Generate Images from the prompt.",
+    techStack: "React, Node.js, Express, MongoDB",
+    url: "https://github.com/DevYasa/promptmage",
+    image: `${process.env.PUBLIC_URL}/images/ia.JPG`,
+    videoId: "f6tgn-dIO5U "
   },
   {
     title: "ChatBotX - AI-powered Chatbot",
